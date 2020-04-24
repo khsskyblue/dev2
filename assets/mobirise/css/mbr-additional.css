@@ -1585,7 +1585,7 @@ section.lazy-placeholder:after {
   z-index: auto;
 }
 .cid-T3YqWcGIyu {
-  background-color: #55b4d4;
+  background-color: #232323;
 }
 .cid-T3YqWcGIyu .cloud1 {
   fill: #ffffff;
@@ -1603,7 +1603,7 @@ section.lazy-placeholder:after {
   color: #767676;
 }
 .cid-75bdhjax5F {
-  background-color: #55b4d4;
+  background-color: #232323;
 }
 .cid-75bdhjax5F .top {
   fill: #ffffff;
@@ -1617,5 +1617,19 @@ section.lazy-placeholder:after {
   fill: #ffffff;
 }
 .cid-TWfW7kbRWT .wave2 {
+  fill: #ffffff;
+}
+.cid-0ePqIyzO1f {
+  padding-top: 75px;
+  padding-bottom: 95px;
+  background-image: url("https://i.imgur.com/FLszoiX.jpg");
+}
+.cid-0ePqIyzO1f svg {
+  overflow: hidden;
+  vertical-align: middle;
+  position: absolute;
+  bottom: 0;
+}
+.cid-0ePqIyzO1f .wave {
   fill: #ffffff;
 }
