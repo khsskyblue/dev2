@@ -1191,11 +1191,7 @@
 </section>
 
 
-  <script src="assets/web/assets/jquery/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
-<script>
-  new Darkmode().showWidget();
-</script>
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>    
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -1213,7 +1209,26 @@
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/wowslider-init/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+<script>
+  new Darkmode().showWidget();
+  var options = {
+  bottom: '64px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true // default: true
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+</script>
 <script async src="assets/wowslider-effect/kenburns/script.js"></script>
 </body>
 </html>
